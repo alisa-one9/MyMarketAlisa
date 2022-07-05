@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_my_sets"
+        android:icon="@drawable/ic_baseline_circle_24"
+        android:title="Мои страницы:" >
+        <menu>
+            <item
+                android:id="@+id/navigation_my_profile"
+                android:icon="@drawable/ic_baseline_circle_24"
+                android:title="My profile" />
+
+            <item
+                android:id="@+id/navigation_my_favorite_products"
+                android:icon="@drawable/ic_baseline_circle_24"
+                android:title="My favorite products" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_market"
+        android:icon="@drawable/ic_baseline_circle_24"
+        android:title="Маркет" >
+        <menu>
+            <item
+                android:id="@+id/navigation_all_products"
+                android:icon="@drawable/ic_baseline_circle_24"
+                android:title="All products" />
+
+            <item
+                android:id="@+id/navigation_pay_page"
+                android:icon="@drawable/ic_baseline_circle_24"
+                android:title="Pay page" />
+        </menu>
+    </item>
+
+</menu>
